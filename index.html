@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan's Portfolio</title>
+
+    <link rel="icon" href="Images\Favicon.png">
+
+</head>
+<body>
+    <!-- Header / Nav bar -->
+    <header id="myHeader">
+        <div class="container">
+            <a href="#home">
+                <img src="Images\ethanlogo.png" alt="logo" class="logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
+            </nav>
+        </div>        
+    </header>
+
+    <!-- Home section-->
+    <div id="home" class="home-background"> 
+      <div class = "home-info"> 
+        <h2 class="home-h2">Hi, my name is</h2>
+        <h1 class="home-h1">Ethan Gilles.</h1>
+        <p class="home-p">I'm a student who is determined to keep challenging <br>
+          myself to improve my full-stack development. 
+        </p>
+        <button onclick="window.location.href = 'index.html#contact';" class="home-button" role="button">Lets get in touch!</button>
+        <button onclick="window.location.href = 'index.html#resume';" class="home-button2" role="button">Check out my Resume!</button>
+
+      </div>
+    </div>
+    
+    <!-- ABOUT -->
+    <section id = "about">
+        <div  class="container reveal fade-bottom">
+          <h2>Nice to meet you.</h2>
+          <div class="text-container">
+            <div class="text-box3">
+
+              <!-- About box-->
+              <h3>Hi, I'm Ethan</h3>
+              <p>
+                I'm a 22 year old student, who also has <span class="red">hands-on experience securing networks</span> for an organization of over 3,000 employees.
+                Currently, I'm finishing my Junior year at the University of Southern Maine in Portland, Maine.
+                I have knowledge in best-practices for IS Security with a <span class="red">strong knowledge of operating systems</span> and a passion for learning and using my technical skills.
+                I have secured two technical internships while also being on the Dean's list at my Univeristy every semester I've attended.
+                I'm passionate about learning and  <span class="red">technology has been my focus</span> while persuing my degree. 
+                
+              </p>
+
+              <h3 class="center">Education</h3>
+              <p>
+                Currently, I am attending USM for my BS in Computer Science, minor in Cybersecurity. <br>
+                GPA: 3.571 <br>
+                Anticipated Graduation: Spring 2025.
+              </p>
+              
+            </div>
+            <div class="text-box4">
+              <h3 class = "skillset">Skill Sets</h3>
+
+              <!-- Skill set box-->
+
+              <div class="frontend">
+                <h4>Front end</h4>
+                <ol>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ol>
+              </div>
+              <div class="backend">
+                <h4>Back End</h4>
+                <ol>
+                  <li>Java</li>
+                  <li>Python</li>
+                </ol>
+              </div>
+              <div class="cybersecurity">
+                <h4>Security</h4>
+                <ol>
+                  <li>Nessus</li>
+                  <li>Ivanti Neurons</li>
+                  <li>Active Directory</li>
+                </ol>
+              </div>
+            </div>
+            
+            <div class="text-box3">
+
+              <!-- Experience / Education -->
+              <h3 class="center">Experience</h3>
+              <a href="https://www.cmhc.org/" target = "_blank" class="cmhLogo">
+                  <img src="Images/CMHlogo.jpg" alt="Central Maine Health Logo" class="cmh">
+              </a>
+              <p>
+                <span class="red">Cybersecurity Intern - Summer of 2023</span> <br>
+                I gained experience working with tools such as Tenable Nessus and Ivanti Neurons to monitor and secure the Central Maine Health network.
+              </p>
+              <a href="https://www.sweetser.org/" target = "_blank" class="cmhLogo">
+                <img src="Images/sweetser_logo.png" alt="Sweetser logo" class="cmh">
+              </a>
+              <p>
+                <span class="red">IT Support - Spring of 2024</span> <br>
+                I worked with network administrators to accomplish tasks in Active Directory like adding new users and devices into the correct organizational units.
+              </p>
+
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+
+      <!-- CONTACT -->
+      
+      <section id = "contact">
+        <div class="container reveal fade-left">
+          <h2>Lets get in touch.</h2>
+          <div class="text-container">
+            <div class="text-box2">
+              <h3>Reach out</h3>
+              <!-- email submission form-->
+              <p>
+                <form action="https://public.herotofu.com/v1/985a3940-6831-11ee-94f4-efb6cbd494ee" method="post" accept-charset="UTF-8" id="contact-form" autocomplete="off">
+                  <input autocomplete="false" name="hidden" type="text" style="display:none;">
+                  <div class="input mb">
+                    <div class="hidden"><label for="name" class="required">Name</label></div>
+                    <div class="icon-container"><input type="text" name="name" id="name" placeholder="Name" class="icon-content" required><span class="fas fa-user icon"></span></div>
+                  </div>
+                
+                  <div class="input mb">
+                    <div class="hidden"><label for="email" class="required">Email</label></div>
+                    <div class="icon-container"><input type="email" name="email" id="email" placeholder="Email" class="icon-content" required><span class="fas fa-envelope icon"></span></div>
+                  </div>
+                
+                  <div class="input mb">
+                    <div class="hidden"><label for="subject" class="required">Subject</label></div>
+                    <div class="icon-container"><input type="text" name="subject" id="subject" placeholder="Subject" class="icon-content" required><span class="fas fa-pencil-alt icon"></span></div>
+                  </div>
+                
+                  <div class="input mb">
+                    <div class="hidden"><label for="message" class="required">Message</label></div>
+                    <div class="icon-container"><textarea name="message" id="message" cols="10" rows="5" placeholder="Message..." class="icon-content" required></textarea><span class="fas fa-quote-left icon"></span></div>
+                  </div>
+                
+                  <div class="input mb">
+                    <button type="submit" class="btn text-center">Send Message</button>
+                  </div>
+                </form>
+              </p>
+            </div>
+            <div class="text-container">
+              <div class="text-box-links">
+                <h3>Other platforms I'm on</h3>
+                <!-- git hub and other links -->
+                <p class ="platforms">
+                    <ol>
+                      <li class="platforms-list" >
+                        <a href="https://github.com/EthanGilles" target="_blank" > 
+                          <img class="contact-link" src="Images\GitHubLogo.png" >
+                        </a>
+                      </li>
+                      <li class="platforms-list" >
+                        <a href="https://www.linkedin.com/in/ethan-gilles-20950b298/" target="_blank" > 
+                          <img class="contact-link" src="Images\LinkedInLogo.png" >
+                        </a>
+                      </li>
+
+
+
+
+                    </ol>
+                </p>
+              </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      
+      <section id = "portfolio">
+        <div class="container reveal fade-right">
+          <h2>Portfolio</h2>
+          <div class="text-container">
+            <div class="text-box">
+              <h3>Sample Gravity Simulator (Java) </h3>
+                <img src="Images/rungif2.gif" class ="gravity-gif">
+                <h4>
+                  <a href="https://github.com/EthanGilles/Simple-Gravity-Simulator" target="_blank" class="portfolioLink">
+                    Check it Out on GitHub  →
+                  </a>
+                </h4>
+              <p>
+                This is a sample particle gravity simulator. 
+                We can use fundamental laws of physics and gravity if we find distance
+                between objects and multiply it by their mass and force. By using particles with a set mass,
+                we can attract or repulse them together or apart to form complex, cell-like structures.
+              </p>
+            </div>
+            <div class="text-box">
+              <h3>Fractal Tree Animation (Java) </h3>
+              <div class="fractree">
+                <img src="Images/rungif2tree.gif" class="tree-gif">
+              </div>
+                <h4>
+                  <a href="https://github.com/EthanGilles/Fractal-Tree" target="_blank" class="portfolioLink">
+                    Check it Out on GitHub  →
+                  </a>
+                </h4>
+              <p>
+                This animation is made from recursive calls, which build the tree based on a user input number.
+                The number can range from 1-5, with options from a quick small tree to a large, slow tree. 
+                The program will show the order in which all the branches and leaves are created and then print them on the screen.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESUME SECTION -->
+
+
+      <section id = "resume">
+        <div  class="container reveal fade-top">
+          <h2>Resume</h2>
+          <div class="text-container">
+            <div class="resume-box">
+              <p>
+                <iframe class="resume-frame"
+                  src="resume.pdf#page=1&zoom=80"
+                  frameBorder="0"
+                  scrolling="no"
+                  style="overflow:hidden;"
+                  >
+                  </iframe>
+              </p>
+            </div>
+            <div class="download-button">
+              <button type="submit" onclick="window.open('resume.pdf')" class="home-button2">
+                Download Resume!
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        
+        //wait one second function
+        var wait = (ms) => {
+            const start = Date.now();
+            let now = start;
+            while (now - start < ms) {
+            now = Date.now();
+            }
+        }
+        
+
+        //loading screen fade out
+        var element = document.querySelector('.loader-wrapper'); 
+         function fadeOut(el) {
+            var opacity = 1; // Initial opacity
+            var interval = setInterval(function() {
+               if (opacity > .95) {
+                  opacity -= 0.005;
+                  el.style.opacity = opacity;
+               }
+               else if (opacity > 0) {
+                    opacity -= 0.1;
+                    el.style.opacity = opacity;
+               }
+                else {
+                  clearInterval(interval); // Stop the interval when opacity reaches 0
+                  el.style.display = 'none'; // Hide the element
+               }
+            }, 50);
+         }
+        fadeOut(element);
+        
+        
+
+        //scrolling nav bar script
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = -1;
+        var loading = document.getElementById("loaderWrapper")
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+          loading.classList.add('loaded');
+        }
+
+        //scroll revreal script
+
+        function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 150;
+
+            if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+            } else {
+            reveals[i].classList.remove("active");
+            }
+        }
+        }
+
+        window.addEventListener("scroll", reveal);
+
+      
+
+    //auto scrolls the window by one pixel down. Stops the glitchy nav bar.
+    window.scrollBy(0, 1);
+    </script>
+        
+    
+</body>
+</html>
