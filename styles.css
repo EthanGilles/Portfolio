@@ -69,6 +69,11 @@
     height: 80%;
   }
 
+  div.mepicture {
+    padding-left: 60%;
+    padding-top: 13vh;
+  }
+
   /* HEADER STYLES */
   section h2 {
     margin: 0;
@@ -296,6 +301,10 @@
     padding-bottom: 20px;
     height: 80px;
     text-align: center;
+  }
+  
+  div.mepicture {
+    display: none;
   }
 
   /* HEADER STYLES */
