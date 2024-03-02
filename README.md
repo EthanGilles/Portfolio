@@ -7,7 +7,7 @@
 
 LINK: <https://thing.cs.usm.maine.edu/~ethan.gilles/>
 
-This is my portfolio website. I built it from scratch using HTML and CSS. 
+This is my portfolio website. I built it from scratch using HTML, CSS and JS. 
 
 The two projects featured on it can also be found on my GitHub.
 
