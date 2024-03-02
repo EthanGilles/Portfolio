@@ -2,7 +2,7 @@
 
 --------------------------
 
-<img src="https://github.com/EthanGilles/Portfolio/blob/568286a7f0f39f8ba9d7084f1c15e8e17de6dbde/screenshots/port.png">
+<img src="https://github.com/EthanGilles/Portfolio/blob/1e3dc0848235d8b637a604596b0e9da74f6dd70c/screenshots/port.png">
 
 
 LINK: <https://thing.cs.usm.maine.edu/~ethan.gilles/>
