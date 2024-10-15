@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/ethanProfile.png";
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -12,6 +12,7 @@ const container = (delay) => ({
 });
 
 const Hero = () => {
+
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
       <div className="flex flex-wrap">
@@ -48,6 +49,7 @@ const Hero = () => {
               animate={{x:0, opacity:1}}
               transition={{duration: 1, delay: 1.2}}
               src={profilePic} 
+              className="rounded-3xl"
               alt="Ethan Gilles Profile Picture" 
             />
           </div>

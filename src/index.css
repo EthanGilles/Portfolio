@@ -7,3 +7,21 @@
 :root {
   font-family: "Inter", sans-serif; 
 }
+
+.slick-slide img {
+  width: 100%; /* Make the image take up the full width of its container */
+  height: 500px; /* Set a fixed height for all images */
+  object-fit: cover; /* Ensures the image covers the container while maintaining its aspect ratio */
+}
+
+/* Change the default dot color */
+.slick-dots li button:before {
+  color: #166534; /* Replace with the desired color (e.g., black) */
+  opacity: 0.5; /* Set the opacity of the unselected dots */
+}
+
+/* Change the active dot color */
+.slick-dots li.slick-active button:before {
+  color: #16a34a; /* Replace with the desired active color (e.g., Tomato) */
+  opacity: 1; /* Make the active dot fully opaque */
+}

@@ -1,13 +1,35 @@
-import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
+import Slider from "react-slick";
+
+import cat from "../assets/about/cat.jpg";
+import hiking from "../assets/about/hikin.jpg";
+import ladybug from "../assets/about/ladybug.jpg";
+import ski from "../assets/about/ski.jpg";
+import van from "../assets/about/van.jpg";
+
 
 const About = () => {
+  const settings = {
+    dots: true,
+    fade: true,
+    infinite: true,
+    speed: 700,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+    waitForAnimate: false,
+  };
+
+  const images = [hiking, ladybug, cat, ski, van]; // Replace with your image paths
+
   return (
     <div className="border-b border-neutral-900 pb-4 ">
       <h2 className="my-20 text-center text-4xl">
         About 
-        <span className="text-neutral-500"> Me</span>
+        <span className="text-neutral-400"> Me</span>
       </h2>
       <div className="flex flex-wrap">
         <motion.div 
@@ -17,7 +39,13 @@ const About = () => {
           className="w-full lg:w-1/2 lg:p-8"
         >
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="About"/>
+            <Slider {...settings} className="w-full">
+              {images.map((img, index) => (
+                <div key={index}>
+                  <img className="rounded-2xl" src={img} alt={`Slide ${index + 1}`} />
+                </div>
+              ))}
+            </Slider>
           </div>
         </motion.div>
         <motion.div 
@@ -27,7 +55,7 @@ const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+            <p className="my-2 max-w-xl py-6 text-center">{ABOUT_TEXT}</p>
           </div>
         </motion.div>
       </div>
