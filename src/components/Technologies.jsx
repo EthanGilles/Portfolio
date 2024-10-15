@@ -2,9 +2,10 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { SiGnubash } from "react-icons/si";
 import { TbBrandAnsible } from "react-icons/tb";
-import { SiMicrosoftazure } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
-import { IoLogoWindows } from "react-icons/io";
+import { TbBrandPython } from "react-icons/tb";
+import { FaDocker } from "react-icons/fa";
+
 //Libraries
 import { motion } from "framer-motion";
 
@@ -60,7 +61,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         > 
-          <SiMicrosoftazure className="text-7xl text-sky-600"/>
+          <TbBrandPython className="text-7xl text-yellow-300"/>
         </motion.div>
         <motion.div 
           variants={iconVariants(2)}
@@ -84,7 +85,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         > 
-          <IoLogoWindows className="text-7xl text-cyan-400"/>
+          <FaDocker className="text-7xl text-sky-600"/>
         </motion.div>
       </motion.div>
     </div>
