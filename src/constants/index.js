@@ -51,7 +51,7 @@ export const PROJECTS = [
     title: "This Website!",
     image: project3,
     description:
-      "My personal portfolio website showcasing projects, skills, and info about me. I loosely designed the website using Figma, then I learned the React framework in this project, using different libraries like Framer Motion and Slick to create responsive components for the site. I used Tailwind CSS for styling and Pixlr for photo editing and the custom logo. I deployed it on my school's webserver.",
+      "My personal portfolio website showcasing projects, skills, and info about me. I loosely designed the website using Figma, then I learned the React framework in this project, using different libraries like Framer Motion and Slick to create responsive components for the site. I used Tailwind CSS for styling and Pixlr for photo editing and the custom logo. I deployed it using Vercel.",
     technologies: ["React", "Tailwind CSS", "JavaScript", "HTML"],
   },
 ];
