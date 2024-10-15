@@ -1,7 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import portfolio from "../assets/projects/portfolio-thumbnail.png";
+import latex from "../assets/projects/latex.png"
+import daily from "../assets/projects/daily.png"
 
 export const HERO_CONTENT = `Hi! I'm Ethan. I'm a Senior studying Computer Science at the University of Southern Maine. I have a deep interest in tech, especially in IT, DevOps and Automation. My coursework has given me with experience in building projects using languages like Python and Java, and in my free time I enjoy working with different front-end frameworks, scripting, and contributing to open source projects. Professionally I have experience within IT and automation, completing a project to automate updates using PowerShell and Ansible during my last summer internship. I'm excited to be starting my career in the tech industry and look forward to learning more!`;
 
@@ -42,17 +41,27 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Apache Web Server",
-    image: project2,
+    image: latex,
     description:
-      "Setup a dedicated home Linux Apache server to aid with Web development. I learned how to install and configure Apache and how to deploy websites using a Docker container. Helped solidify my knowledge of Linux, networking, and Git. Also created a script to parse Apache server logs using Bash to display HTTP codes and connection counts.",
+      "Setup a dedicated home Linux Apache server to aid with web development and creating LaTeX documents. I learned how to install and configure Apache and how to deploy services using a Docker container. This allowed me to use OverLeaf's online editor and compile LaTeX documents without having to use an IDE and a manual install of LaTeX, but also gaining the functionality of a fully paid Overleaf subscription. This helped solidify my knowledge of Linux, networking, Git and containerization. I also created a script to parse Apache server logs using Bash to display HTTP codes and connection counts.",
     technologies: ["UNIX/Linux", "Apache", "Bash", "Firebase"],
+    url: "https://github.com/EthanGilles/apache_parser",
+  },
+  {
+    title: "Reddit News Script - Python",
+    image: daily,
+    description:
+      "This script grabs the titles from a list of subreddits you can customize. It uses the praw library in python and the Reddit API for authentication. It is meant to be a simple CLI tool for listing some information from the internet. The script is called daily as its meant to be called daily, to update you on whatever Subreddits you're interested in.",
+    technologies: ["Python", "PRAW", "APIs" ],
+    url: "https://github.com/EthanGilles/daily",
   },
   {
     title: "This Website!",
-    image: project3,
+    image: portfolio,
     description:
       "My personal portfolio website showcasing projects, skills, and info about me. I loosely designed the website using Figma, then I learned the React framework in this project, using different libraries like Framer Motion and Slick to create responsive components for the site. I used Tailwind CSS for styling and Pixlr for photo editing and the custom logo. I deployed it using Vercel.",
     technologies: ["React", "Tailwind CSS", "JavaScript", "HTML"],
+    url: "https://github.com/EthanGilles/Portfolio",
   },
 ];
 
