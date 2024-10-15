@@ -3,10 +3,10 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `Hi! I'm Ethan. I'm a Senior studying Computer Science at the University of Southern Maine. I have a deep interest in tech, especially in IT, DevOps and Automation. My coursework has given me with experience in building projects using languages like Python and Java, and in my free time I enjoy working with different front-end frameworks and scripting. Professionally, I have experience in IT with automation, completing a project to automate updates using PowerShell and Ansible during my last summer internship. I'm excited to be starting my career in the tech industry and look forward to learning more!`;
+export const HERO_CONTENT = `Hi! I'm Ethan. I'm a Senior studying Computer Science at the University of Southern Maine. I have a deep interest in tech, especially in IT, DevOps and Automation. My coursework has given me with experience in building projects using languages like Python and Java, and in my free time I enjoy working with different front-end frameworks, scripting, and contributing to open source projects. Professionally I have experience within IT and automation, completing a project to automate updates using PowerShell and Ansible during my last summer internship. I'm excited to be starting my career in the tech industry and look forward to learning more!`;
 
-export const ABOUT_TEXT = `Outside of technology, I have all sorts of interests! I enjoy traveling, skiing, reading, hiking, biking, live music, and disc golf. I also like building things, playing video games, and tending to my collection of over 20 house plants. Spending quality time with family, friends, my girlfriend Althea, and my cat Olive is something I'm always looking forward to. Before my Computer Science undergraduate, I spent a year traveling across the continental U.S. in a van that I converted myself, which gave me the opportunity to explore and meet new people. 
-My journey into technology began with a deep curiosity about how computers work, but over time, I discovered that I truly love the process of learning itself. I’m always seeking out new challenges and enjoy applying my knowledge to personal projects and at work, which allows me to explore new concepts while also helping others. My combination of curiosity and the desire to build practical solutions keeps me motivated in my studies and work. `;
+export const ABOUT_TEXT = `Before my Computer Science undergraduate I spent a year traveling across the continental U.S. in a van that I converted myself, which gave me the opportunity to explore and meet new people. My journey into Computer Science began with a genuine curiosity about how computers work, taking my first programming classes in highschool as electives. Over time, I discovered that I truly love the process of learning itself, and with technology it is always easy for me to find new things I'm excited to learn about!
+I’m always seeking out new challenges and enjoy applying my knowledge to personal projects, which keeps me motivated in my studies and at work. Outside of technology, I have all sorts of interests, I enjoy skiing, reading, hiking, biking, live music, traveling and disc golf. I also like building things, playing video games, and tending to my collection of over 20 house plants. In my time traveling with my family and on my own, I've visited 3 different foreign countries and over 40 US states. Spending quality time with family, friends, my girlfriend Althea, and my cat Olive is something I'm always looking forward to as well. `;
 
 export const EXPERIENCES = [
   {
@@ -51,7 +51,7 @@ export const PROJECTS = [
     title: "This Website!",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information. I learned the React framework in this project, using different libraries and components to make this site. I used Tailwind CSS for styling.",
+      "My personal portfolio website showcasing projects, skills, and info about me. I loosely designed the website using Figma, then I learned the React framework in this project, using different libraries like Framer Motion and Slick to create responsive components for the site. I used Tailwind CSS for styling and Pixlr for photo editing and the custom logo. I deployed it on my school's webserver.",
     technologies: ["React", "Tailwind CSS", "JavaScript", "HTML"],
   },
 ];

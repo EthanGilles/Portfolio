@@ -2,11 +2,12 @@ import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
 
-import cat from "../assets/about/cat.jpg";
 import hiking from "../assets/about/hikin.jpg";
 import ladybug from "../assets/about/ladybug.jpg";
 import ski from "../assets/about/ski.jpg";
-import van from "../assets/about/van.jpg";
+import sitting from "../assets/about/sitting.jpg";
+import goat from "../assets/about/goat.jpeg";
+import cat from "../assets/about/catyawn.jpeg";
 
 
 const About = () => {
@@ -15,15 +16,15 @@ const About = () => {
     fade: true,
     infinite: true,
     speed: 700,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     arrows: false,
     waitForAnimate: false,
   };
 
-  const images = [hiking, ladybug, cat, ski, van]; // Replace with your image paths
+  const images = [hiking, ladybug, ski, sitting, goat, cat]; // Replace with your image paths
 
   return (
     <div className="border-b border-neutral-900 pb-4 ">
