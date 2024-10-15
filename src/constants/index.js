@@ -44,7 +44,7 @@ export const PROJECTS = [
     title: "Apache Web Server",
     image: latex,
     description:
-      "Setup a dedicated home Linux Apache server to aid with web development and creating LaTeX documents. I learned how to install and configure Apache and how to deploy services using a Docker container. This allowed me to deploy the open-source service OverLeaf on a home server, so I could create documents without having to use an IDE and to gain the functionality of a fully paid Overleaf subscription. This helped solidify my knowledge of Linux, networking, Git and containerization. .",
+      "Setup a dedicated home Linux Apache server to aid with web development and creating LaTeX documents. I learned how to install and configure Apache and how to deploy services using a Docker container. This allowed me to deploy the open-source service OverLeaf on a home server, so I could create documents without having to use an IDE and gain the functionality of a fully paid Overleaf subscription. This helped solidify my knowledge of Linux, networking, Git and containerization.",
     technologies: ["UNIX/Linux", "Apache", "Bash", "Docker"],
     url: "https://github.com/EthanGilles/apache_parser",
   },
