@@ -1,9 +1,9 @@
 {
+  "homepage": "EthanGilles.github.io/Portfolio",
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "EthanGilles.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
