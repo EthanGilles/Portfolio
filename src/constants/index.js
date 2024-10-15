@@ -44,7 +44,7 @@ export const PROJECTS = [
     image: latex,
     description:
       "Setup a dedicated home Linux Apache server to aid with web development and creating LaTeX documents. I learned how to install and configure Apache and how to deploy services using a Docker container. This allowed me to use OverLeaf's online editor and compile LaTeX documents without having to use an IDE and a manual install of LaTeX, but also gaining the functionality of a fully paid Overleaf subscription. This helped solidify my knowledge of Linux, networking, Git and containerization. I also created a script to parse Apache server logs using Bash to display HTTP codes and connection counts.",
-    technologies: ["UNIX/Linux", "Apache", "Bash", "Firebase"],
+    technologies: ["UNIX/Linux", "Apache", "Bash", "Docker"],
     url: "https://github.com/EthanGilles/apache_parser",
   },
   {
