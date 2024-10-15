@@ -5,9 +5,6 @@ import Slider from "react-slick";
 import hiking from "../assets/about/hikin.jpg";
 import ladybug from "../assets/about/ladybug.jpg";
 import ski from "../assets/about/ski.jpg";
-import sitting from "../assets/about/sitting.jpg";
-import goat from "../assets/about/goat.jpeg";
-import cat from "../assets/about/catyawn.jpeg";
 
 
 const About = () => {
@@ -24,7 +21,7 @@ const About = () => {
     waitForAnimate: false,
   };
 
-  const images = [hiking, ladybug, ski, sitting, goat, cat]; // Replace with your image paths
+  const images = [hiking, ladybug, ski ]; // Replace with your image paths
 
   return (
     <div className="border-b border-neutral-900 pb-4 ">
@@ -55,8 +52,8 @@ const About = () => {
           transition={{duration: 0.5}}
           className="w-full lg:w-1/2"
         >
-          <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6 text-center">{ABOUT_TEXT}</p>
+          <div className="flex justify-center lg:justify-center">
+            <p className="my-2 max-w-xl py-6 text-center lg:tracking-wide">{ABOUT_TEXT}</p>
           </div>
         </motion.div>
       </div>

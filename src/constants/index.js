@@ -3,10 +3,23 @@ import latex from "../assets/projects/latex.png"
 import daily from "../assets/projects/daily.png"
 import nvim from "../assets/projects/nvim.png"
 
-export const HERO_CONTENT = `Hi! I'm Ethan. I'm a Senior studying Computer Science at the University of Southern Maine. I have a deep interest in tech, especially in IT, DevOps and Automation. My coursework has given me with experience in building projects using languages like Python and Java, and in my free time I enjoy working with different front-end frameworks, scripting, and contributing to open source projects. Professionally I have experience within IT and automation, completing a project to automate updates using PowerShell and Ansible during my last summer internship. I'm excited to be starting my career in the tech industry and look forward to learning more!`;
+export const HERO_CONTENT = `
+Hi! I'm Ethan. 
+I'm a Senior studying Computer Science at the University of Southern Maine. 
+I have a deep interest in tech, especially in IT, DevOps and Automation. 
+My coursework has given me with experience in building projects using languages like Python and Java. 
+In my free time I enjoy working with different front-end frameworks, scripting, and learning new technologies. 
+Professionally I have experience within IT and automation, completing a project to automate updates using PowerShell and Ansible during my last summer internship. 
+I'm excited to be starting my career in the tech industry and look forward to learning more!`;
 
-export const ABOUT_TEXT = `Before my Computer Science undergraduate I spent a year traveling across the continental U.S. in a van that I converted myself, which gave me the opportunity to explore and meet new people. My journey into Computer Science began with a genuine curiosity about how computers work, taking my first programming classes in highschool as electives. Over time, I discovered that I truly love the process of learning itself, and with technology it is always easy for me to find new things I'm excited to learn about!
-I’m always seeking out new challenges and enjoy applying my knowledge to personal projects, which keeps me motivated in my studies and at work. Outside of technology, I have all sorts of interests, I enjoy skiing, reading, hiking, biking, live music, traveling and disc golf. At home I like building things, playing video games, and tending to my collection of over 20 house plants. In my time traveling with my family and on my own, I've visited 3 different foreign countries and over 40 US states. Spending quality time with family, friends, my girlfriend Althea, and my cat Olive is something I'm always looking forward to as well. `;
+export const ABOUT_TEXT = `
+My journey into Computer Science started with a genuine curiosity about how computers work, taking my first programming classes in highschool as electives. 
+Over time, I discovered that I truly love the process of learning itself, and with technology and development, it is always easy for me to find new things I'm excited to learn about.
+Before my Computer Science undergraduate I spent a year traveling across the continental U.S. in a van that I converted myself, which gave me the opportunity to explore and meet new people. 
+Outside of technology, I have all sorts of interests like skiing, traveling, hiking, biking, live music, and disc golf. 
+At home I like building things, playing video games, tending to my plants and reading. 
+Spending quality time with family, friends, my girlfriend, and my cat Olive is always something I'm looking forward to. 
+`;
 
 export const EXPERIENCES = [
   {
