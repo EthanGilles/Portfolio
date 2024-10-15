@@ -11,7 +11,6 @@ Welcome to my personal portfolio website! This site serves as a showcase of my p
 - [Technologies Used](#technologies-used)
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
-- [License](#license)
 
 ## About the Project
 
