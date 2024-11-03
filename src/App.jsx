@@ -20,10 +20,10 @@ const App = () => {
       <div className="container mx-auto p-8"> 
         <NavBar />
         <Hero />
-        <About />
+        <Projects />
         <Technologies />
         <Experience />
-        <Projects />
+        <About />
         <Contact />
       </div>
     </div>

@@ -2,6 +2,7 @@ import portfolio from "../assets/projects/portfolio-thumbnail.png";
 import latex from "../assets/projects/latex.png"
 import daily from "../assets/projects/daily.png"
 import nvim from "../assets/projects/nvim.png"
+import compiler from "../assets/projects/compiler.png"
 
 export const HERO_CONTENT = `
 Hi! I'm Ethan. 
@@ -53,6 +54,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "E++ / Please Compiler",
+    image: compiler,
+    description:
+      "The Please Compiler is a fun project that enforces politeness in E++, a unique programming language where code must include polite expressions. This project incorporated humor while providing hands-on experience in language design and compiler construction.",
+    technologies: ["C++", "CMake", "x86 Assembly"],
+    url: "https://github.com/EthanGilles/epp",
+  },
   {
     title: "Apache Web Server",
     image: latex,
