@@ -55,12 +55,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E++ / Please Compiler",
+    title: "PleaseLang / Please Compiler",
     image: compiler,
     description:
-      "The Please Compiler is a fun project that enforces politeness in E++, a unique programming language where code must include polite expressions. This project incorporated humor while providing hands-on experience in language design and compiler construction.",
+      "The Please Compiler is a fun project that enforces politeness in a programming language I made called PleaseLang, a language where code must include polite expressions. This project incorporated humor while providing hands-on experience in language design and compiler construction.",
     technologies: ["C++", "CMake", "x86 Assembly"],
-    url: "https://github.com/EthanGilles/epp",
+    url: "https://github.com/EthanGilles/pleaselang",
   },
   {
     title: "Apache Web Server",
