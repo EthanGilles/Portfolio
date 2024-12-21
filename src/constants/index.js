@@ -3,6 +3,8 @@ import latex from "../assets/projects/latex.png"
 import daily from "../assets/projects/daily.png"
 import nvim from "../assets/projects/nvim.png"
 import compiler from "../assets/projects/compiler.png"
+import sports from "../assets/projects/sports.png"
+
 
 export const HERO_CONTENT = `
 Hi! I'm Ethan. 
@@ -61,6 +63,14 @@ export const PROJECTS = [
       "The Please Compiler is a fun project that enforces politeness in a programming language I made called PleaseLang, a language where code must include polite expressions. This project incorporated humor while providing hands-on experience in language design and compiler construction.",
     technologies: ["C++", "CMake", "x86 Assembly"],
     url: "https://github.com/EthanGilles/pleaselang",
+  },
+  {
+    title: "Sports Classification Convolutional Neural Network",
+    image: sports,
+    description:
+      "Implemented a Convolutional Neural Network (CNN) using PyTorch to classify images of various sports. The primary objective was to develop a model that can accurately identify the sport being played in any given image.",
+    technologies: ["Python", "PyTorch", "Sklearn", "Matplotlib"],
+    url: "https://github.com/EthanGilles/sports-classification",
   },
   {
     title: "Apache Web Server",
