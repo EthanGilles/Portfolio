@@ -4,6 +4,7 @@ import daily from "../assets/projects/daily.png"
 import nvim from "../assets/projects/nvim.png"
 import compiler from "../assets/projects/compiler.png"
 import sports from "../assets/projects/sports.png"
+import resources from "../assets/projects/resources.png"
 
 
 export const HERO_CONTENT = `
@@ -26,11 +27,18 @@ Spending quality time with family, friends, my girlfriend, and my cat Olive is a
 
 export const EXPERIENCES = [
   {
-    year: "September 2024 - Present",
+    year: "September 2024 - December 2024",
     role: "Second Year IT Service Operations Intern",
     company: "Sweetser",
-    description: `Leading a project with another intern to integrate a new software for imaging into IT. Working with the Director of IT and Sales Engineers ensuring adherance to all best practices during implementation. Maintaining information on retired devices and hardware to ensure compliance with data destruction standards. Configuring software on Windows 2019 Servers using VSphere for Virtualization.`,
+    description: "Successfully integrated a new imaging software into the existing infrastructure during the migration to Windows 11. Working with the director of IT and sales engineers to ensure a seamless transition. Kept Active Directory, ConnectWise Automate, Azure Intune and Sophos up to date with current users. Provided excellent customer service to end users via the IT help desk line",
     technologies: ["Active Directory", "Server Administration", "Virtualization" ],
+  },
+  {
+    year: "January 2024 - Present",
+    role: "Student Assistant and Teachers Assistant",
+    company: "University of Southern Maine",
+    description: "I was a Teacher's assitant for COS 161 - Algorthms in Programming and COS285 - Discrete Mathematics II where I attended labs and assisted students with installing and troubleshooting their IDEs and debuggers for the course. During the summer I created student resources that are featured on the USM website using LaTeX, covering: Dynamic Programming, Divide and Conquer, Greedy Algorithms, Genetic Algorithms and Simulated Annealing, Github and Unix that you can see down in the projects section!",
+    technologies: ["LaTeX", "Algorithms", "GitHub", "Unix"],
   },
   {
     year: "May - August 2024",
@@ -104,10 +112,18 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind CSS", "JavaScript", "HTML"],
     url: "https://github.com/EthanGilles/Portfolio",
   },
+  {
+    title: "Computer Science Student Resources",
+    image: resources,
+    description:
+      "I created student resources that are featured on the USM Website using LaTeX, with topics covering: Dynamic Programming, Divide and Conquer, Greedy Algorithms, Genetic Algorithms, Simulated Annealing, Github, and Unix. I also created course specific cheat sheets to help students at the University of Southern Maine with their coursework. I worked under the chair of the Computer Science Department to create these resources.",
+    technologies: ["LaTeX", "Algorithms", "Unix", "GitHub"],
+    url: "https://github.com/EthanGilles/Algorithms-Resources/tree/main/finished-pdf",
+  },
 ];
 
 export const CONTACT = {
-  address: "",
-  phoneNo: "",
+  address: "Lewiston, ME",
+  phoneNo: "(207) 530-2580",
   email: "ehgilles01@gmail.com",
 };
