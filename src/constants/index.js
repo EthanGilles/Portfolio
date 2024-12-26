@@ -37,7 +37,7 @@ export const EXPERIENCES = [
     year: "January 2024 - Present",
     role: "Student Assistant and Teachers Assistant",
     company: "University of Southern Maine",
-    description: "I was a Teacher's assitant for COS 161 - Algorthms in Programming and COS285 - Discrete Mathematics II where I attended labs and assisted students with installing and troubleshooting their IDEs and debuggers for the course. During the summer I created student resources that are featured on the USM website using LaTeX, covering: Dynamic Programming, Divide and Conquer, Greedy Algorithms, Genetic Algorithms and Simulated Annealing, Github and Unix that you can see up in the projects section!",
+    description: "I was a Teacher's assitant for COS 161 - Algorthms in Programming and COS285 - Discrete Mathematics II where I attended labs, graded and gave feedback for over 25 students. During the summer I created student resources that are featured on the USM website using LaTeX, covering: Dynamic Programming, Divide and Conquer, Greedy Algorithms, Genetic Algorithms, Simulated Annealing, Github and Unix that you can see up in the projects section!",
     technologies: ["LaTeX", "Algorithms", "GitHub", "Unix"],
   },
   {
