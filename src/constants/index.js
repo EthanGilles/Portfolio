@@ -5,7 +5,7 @@ import nvim from "../assets/projects/nvim.png"
 import compiler from "../assets/projects/compiler.png"
 import sports from "../assets/projects/sports.png"
 import resources from "../assets/projects/resources.png"
-import pipeline from "../assets/projects/pipeline.png"
+import pipeline from "../assets/projects/pipeline.jpg"
 
 
 export const HERO_CONTENT = `
