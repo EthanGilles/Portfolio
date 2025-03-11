@@ -5,6 +5,7 @@ import nvim from "../assets/projects/nvim.png"
 import compiler from "../assets/projects/compiler.png"
 import sports from "../assets/projects/sports.png"
 import resources from "../assets/projects/resources.png"
+import pipeline from "../assets/projects/pipeline.png"
 
 
 export const HERO_CONTENT = `
@@ -26,6 +27,13 @@ Spending quality time with family, friends, my girlfriend, and my cat Olive is a
 `;
 
 export const EXPERIENCES = [
+  {
+    year: "February 2025 - Present",
+    role: "Undergraduate Research Assistant",
+    company: "University of Southern Maine",
+    description: "Assisting with a Deep Learning project involving medical image classification. Specifically, I worked on a novel new model architecture called XcepKNN which achieved better performance than previous models on a Brain Tumor MRI dataset. This model classified MRI images into 4 categories: Glioma, Meningioma, No Tumor, and Pituitary.",
+    technologies: ["LaTeX", "Deep Learning", "Machine Learning", "PyTorch"],
+  },
   {
     year: "September 2024 - December 2024",
     role: "Second Year IT Service Operations Intern",
@@ -64,6 +72,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "XcepKNN: Brain Tumor MRI Classification CNN-KNN Hybrid",
+    image: pipeline,
+    description:
+      "A Deep Learning research project conducted at USM in my senior year of undergraduate. The goal is to classify brain tumors in MRI images into one of four classes: gliomas, meningiomas, pituitary tumors, and no tumor. I achieved significantly better performance than previous models with 98.40% accuracy.",
+    technologies: ["Python", "Pytorch", "SKlearn", "Jupyter Notebook"],
+    url: "https://github.com/EthanGilles/Brain-Tumor-Classification",
+  },
   {
     title: "PleaseLang / Please Compiler",
     image: compiler,
