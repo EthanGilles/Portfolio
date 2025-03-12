@@ -1,6 +1,5 @@
 import portfolio from "../assets/projects/portfolio-thumbnail.png";
 import latex from "../assets/projects/latex.png"
-import daily from "../assets/projects/daily.png"
 import nvim from "../assets/projects/nvim.png"
 import compiler from "../assets/projects/compiler.png"
 import sports from "../assets/projects/sports.png"
