@@ -11,11 +11,15 @@ import pipeline from "../assets/projects/pipeline.jpg"
 export const HERO_CONTENT = `
 Hi! I'm Ethan. 
 I'm a Senior studying Computer Science at the University of Southern Maine. 
-I have a deep interest in tech, especially in IT, DevOps and Automation. 
-My coursework has given me with experience in building projects using languages like Python and Java. 
-In my free time I enjoy working with different front-end frameworks, scripting, and learning new technologies. 
-Professionally I have experience within IT and automation, completing a project to automate updates using PowerShell and Ansible during my last summer internship. 
-I'm excited to be starting my career in the tech industry and look forward to learning more!`;
+I have a deep interest in tech, especially in IT, DevOps and Automation. Recently 
+I've also been working on Deep Learning experiments using Python and PyTorch with 
+a research group at USM. In my free time I enjoy working with different 
+front-end frameworks, scripting languages, and learning new technologies. For example, 
+I working on getting my AWS Certified Cloud Practitioner certification.
+Professionally I have experience within IT and automation, completing a project to automate 
+updates using PowerShell and Ansible during my last summer internship. 
+I'm excited to be starting my career in the tech industry and look forward to learning more!
+`;
 
 export const ABOUT_TEXT = `
 My journey into Computer Science started with a genuine curiosity about how computers work, taking my first programming classes in highschool as electives. 
@@ -111,14 +115,6 @@ export const PROJECTS = [
       "My personal NeoVim configuration that I can easily use on any new Debian based machine. It has support for editing code in any language I normally use as well as snippets, autocomplete, and syntax highlighting. Creating the configuration helped me learn Lua and more about configuring Linux machines. Additionally, I created a script to install all the needed dependencies for the configuration using Bash. I made sure to take time and document all of the features of the configuration to make it easy for me to remember keybinds, plugin configuration, and other things.",
     technologies: ["Bash", "Lua", "Technical Documentation"],
     url: "https://github.com/EthanGilles/nvim",
-  },
-  {
-    title: "Reddit News Script - Python",
-    image: daily,
-    description:
-      "This script grabs the titles from a list of subreddits you can customize. It uses the praw library in python and the Reddit API for authentication. It is meant to be a simple CLI tool for listing some information from the internet. The script is called daily as its meant to be called daily, to update you on whatever Subreddits you're interested in.",
-    technologies: ["Python", "PRAW", "APIs" ],
-    url: "https://github.com/EthanGilles/daily",
   },
   {
     title: "This Website!",
