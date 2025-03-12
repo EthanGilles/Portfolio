@@ -14,9 +14,9 @@ I have a deep interest in tech, especially in IT, DevOps and Automation. Recentl
 I've also been working on Deep Learning experiments using Python and PyTorch with 
 a research group at USM. In my free time I enjoy working with different 
 front-end frameworks, scripting languages, and learning new technologies. For example, 
-I working on getting my AWS Certified Cloud Practitioner certification.
-Professionally I have experience within IT and automation, completing a project to automate 
-updates using PowerShell and Ansible during my last summer internship. 
+I am working on getting my AWS Certified Cloud Practitioner certification.
+Professionally, I have experience in IT, where I have worked for three different 
+non-profit companies during my undergraduate degree.
 I'm excited to be starting my career in the tech industry and look forward to learning more!
 `;
 
