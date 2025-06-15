@@ -13,9 +13,10 @@ Hi! I'm Ethan.
 I'm a graduate with a B.Sc. in Computer Science from the University of Southern Maine. 
 I am also an incoming Masters student, starting at CU Boulder this fall in their Network 
 Engineering program.
-I have a deep interest in tech, especially in IT, DevOps and Automation. Recently 
-I've also been working on Deep Learning experiments using Python and PyTorch with 
-a research group at USM. In my free time I enjoy working with different 
+I have a deep interest in tech, especially in IT, DevOps and Automation.
+Recently I started working at Seagate where I have been gaining experience with 
+containerized applications and using Helm/Kubernetes to modernize infrastructure.
+In my free time I enjoy working with different 
 front-end frameworks, scripting languages, and learning new technologies. For example, 
 I recently got my AWS Certified Cloud Practitioner certification.
 Professionally, I have experience in IT, where I have worked for three different 
