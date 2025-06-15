@@ -5,18 +5,22 @@ import compiler from "../assets/projects/compiler.png"
 import sports from "../assets/projects/sports.png"
 import resources from "../assets/projects/resources.png"
 import pipeline from "../assets/projects/pipeline.jpg"
+import homelab from  "../assets/projects/flux.png"
 
 
 export const HERO_CONTENT = `
 Hi! I'm Ethan. 
-I'm a Senior studying Computer Science at the University of Southern Maine. 
+I'm a Graduate from the Computer Science program at the University of Southern Maine. 
+I am also an incoming Masters student, starting at CU Boulder this fall in their Network 
+Engineering program.
 I have a deep interest in tech, especially in IT, DevOps and Automation. Recently 
 I've also been working on Deep Learning experiments using Python and PyTorch with 
 a research group at USM. In my free time I enjoy working with different 
 front-end frameworks, scripting languages, and learning new technologies. For example, 
-I am working on getting my AWS Certified Cloud Practitioner certification.
+I recently got my AWS Certified Cloud Practitioner certification.
 Professionally, I have experience in IT, where I have worked for three different 
-non-profit companies during my undergraduate degree.
+non-profit companies during my undergraduate degree. Now I am working at Seagate 
+Technologies as a DevOps intern before I start my masters program
 I'm excited to be starting my career in the tech industry and look forward to learning more!
 `;
 
@@ -31,7 +35,14 @@ Spending quality time with family, friends, my girlfriend, and my cat Olive is a
 
 export const EXPERIENCES = [
   {
-    year: "February 2025 - Present",
+    year: "May 2025 - Present",
+    role: "DevOps Engineer Intern",
+    company: "Seagate",
+    description: "Currently working on migrating VM based applications to a production Kubernetes cluster",
+    technologies: ["Kubernetes", "Github", "CI/CD", "Docker"],
+  },
+  {
+    year: "February 2025 - May 2025",
     role: "Undergraduate Research Assistant",
     company: "University of Southern Maine",
     description: "Assisting with a Deep Learning project involving medical image classification. Specifically, I worked on a novel new model architecture called XcepKNN which achieved better performance than previous models on a Brain Tumor MRI dataset. This model classified MRI images into 4 categories: Glioma, Meningioma, No Tumor, and Pituitary.",
@@ -75,6 +86,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Homelab K3s Cluster",
+    image: homelab,
+    description:
+      "Currently in the process of setting up a homelab with GitOps integration through Flux",
+    technologies: ["Kubernetes", "FluxCD", "Renovate", "Helm"],
+    url: "https://github.com/EthanGilles/Brain-Tumor-Classification",
+  },
   {
     title: "XcepKNN: Brain Tumor MRI Classification CNN-KNN Hybrid",
     image: pipeline,
