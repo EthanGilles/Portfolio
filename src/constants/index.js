@@ -154,7 +154,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Lewiston, ME",
+  address: "Longmont, CO",
   phoneNo: "(207) 530-2580",
   email: "ehgilles01@gmail.com",
 };
