@@ -1,4 +1,5 @@
 //Icon Imports
+import { SiKubernetes } from "react-icons/si";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiGnubash } from "react-icons/si";
 import { TbBrandAnsible } from "react-icons/tb";
@@ -70,7 +71,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         > 
-          <RiReactjsLine className="text-7xl text-cyan-400"/>
+          <SiKubernetes className="text-7xl text-blue-600"/>
         </motion.div>
         <motion.div 
           variants={iconVariants(6)}

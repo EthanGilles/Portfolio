@@ -10,7 +10,7 @@ import homelab from  "../assets/projects/flux.png"
 
 export const HERO_CONTENT = `
 Hi! I'm Ethan. 
-I'm a Graduate from the Computer Science program at the University of Southern Maine. 
+I'm a graduate with a B.Sc. in Computer Science from the University of Southern Maine. 
 I am also an incoming Masters student, starting at CU Boulder this fall in their Network 
 Engineering program.
 I have a deep interest in tech, especially in IT, DevOps and Automation. Recently 
@@ -20,7 +20,7 @@ front-end frameworks, scripting languages, and learning new technologies. For ex
 I recently got my AWS Certified Cloud Practitioner certification.
 Professionally, I have experience in IT, where I have worked for three different 
 non-profit companies during my undergraduate degree. Now I am working at Seagate 
-Technologies as a DevOps intern before I start my masters program
+Technologies as a DevOps Intern before I start my masters program this fall.
 I'm excited to be starting my career in the tech industry and look forward to learning more!
 `;
 
@@ -92,7 +92,7 @@ export const PROJECTS = [
     description:
       "Currently in the process of setting up a homelab with GitOps integration through Flux",
     technologies: ["Kubernetes", "FluxCD", "Renovate", "Helm"],
-    url: "https://github.com/EthanGilles/Brain-Tumor-Classification",
+    url: "https://github.com/EthanGilles/homelab",
   },
   {
     title: "XcepKNN: Brain Tumor MRI Classification CNN-KNN Hybrid",
